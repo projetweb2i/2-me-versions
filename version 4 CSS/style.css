@@ -1,0 +1,287 @@
+#img_logo
+{
+    width:42.5%;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.img_logo2
+{
+    width:20%;
+    height: 80px;
+    margin: 10px;
+}
+
+#img_compte
+{
+    width:12.5%;
+    height: 40px;
+    vertical-align: middle;
+}
+
+#logo
+{
+    width: 15%;
+    height: 100%;
+    line-height: 88px;
+    vertical-align: middle;
+    margin: auto;
+    float: left;
+}
+
+#menu
+{
+    width: 60%;
+    height: 90px;
+    float: left;
+}
+
+#ss_menu
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 90px;
+    position: fixed;
+}
+
+#compte
+{
+    width: 25%;
+    height: 90px;
+    float: left;
+    cursor: pointer;
+}
+
+#bannière
+{
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background-color: #019E8D;
+    padding-left: 7px;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 5px;
+    border-color: #1C4440;
+}
+
+#contenu
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    height: 140%;
+        background-color: white;
+}
+
+
+
+#chaussure
+{
+    text-align: center;
+}
+
+#accessoire
+{
+    text-align: center;
+}
+
+#vetement
+{
+    text-align: center;
+}
+
+#indice
+{
+    top: 140%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 97.5%;
+    padding-left: 35px;
+}
+
+#apropos
+{
+    position: relative;
+}
+
+#conec
+{
+    top: 20%;
+    left: 31%;
+    width: 38%;
+    height: 75%;
+    position: fixed;
+    background-color: #019E8D;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+#inscription
+{
+    top: 7%;
+    left: 31%;
+    width: 38%;
+    height: 85%;
+    position: fixed;
+    background-color: #019E8D;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+#ferm2
+{
+    float: right;
+    width: 6%;
+    height: auto;
+    cursor: pointer;
+}
+
+#ferm1
+{
+    float: right;
+    width: 6%;
+    height: auto;
+    cursor: pointer;
+}
+
+#autre
+{
+
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.quart
+{
+    width: 25%;
+    float: left;
+}
+
+.bout_connec
+{
+    left: 20%;
+    width: 60%;
+    background-color: #1C4440;
+    color: white;
+    margin: 0 auto;
+    height: 50px;
+    padding-top:3%;
+}
+
+.ss_titre
+{
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.titre
+{
+    font-weight: bold;
+}
+
+.resum
+{
+    float: left;
+    margin: 20px;
+    width: 15%;
+    background-color: black;
+}
+
+.interieur
+{
+   font-family: 'Atma';
+   font-size: 15px;
+    height: 90px;
+    float: left;
+    text-align: center;
+     transition: background-color 1s;
+}
+
+.interieur:hover
+{
+     background-color: #0B9C97;
+      border: 2px solid #002625;
+      border-radius:4px;
+ 
+
+}
+
+
+
+
+
+.photo
+{
+    width: 100%;
+    height: auto;
+}
+
+.desc
+{
+    float: right;
+    width: 75%;
+    font-size: 10px;
+    height: 100%;
+}
+
+.centrer
+{
+    text-align: center;
+}
+
+body
+{
+       font-family: 'Atma';
+    margin:0;
+    background-color: #0B9C97;
+}
+
+
+
+.container {
+    margin-left: 5% ; margin-right: auto;
+  position: relative;
+
+  width: 25%;
+  float: left;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #019E8D;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+     font-family: 'Atma';
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
